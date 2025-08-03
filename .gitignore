@@ -1,0 +1,52 @@
+# Configuration
+config/settings.inc.php
+app/config/parameters.yml
+app/config/parameters.php
+
+# Cache et logs
+var/cache/*
+var/logs/*
+cache/*
+log/*
+
+# Uploads et médias
+upload/*
+img/p/*
+img/c/*
+img/m/*
+img/s/*
+img/su/*
+img/st/*
+download/*
+
+# Installation
+install/
+
+# Modules tiers
+modules/*/
+!modules/index.php
+
+# Backups
+admin*/backups/*
+admin*/export/*
+admin*/import/*
+
+# OS et IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Composer
+/vendor/
+composer.phar
+
+# Node
+node_modules/
+npm-debug.log
+
+# Autres
+sitemap.xml
+robots.txt
